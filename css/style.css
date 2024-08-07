@@ -8547,6 +8547,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .esha p  {
     max-width: 100% !important; }
 
+    .eshafix   {
+      margin-left: 100px !important; }
+    
+
 /* Responsive Device under :991px. */
 @media (max-width: 991px) {
   .bg-image-top {

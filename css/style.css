@@ -446,6 +446,10 @@ ul li,
 ol li {
   margin-top: 1rem; }
 
+.animated,h3 {
+    font-size: 23px !important; 
+}
+
 /* -------------------------------------
     Custom Class
 ------------------------------------- */
@@ -8532,7 +8536,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     background-repeat: no-repeat;
     background-image: url(../img/bg/21.jpg);
     height: 100%;
-    width: 48%;
+    width: 35%;
     left: auto;
     right: 0;
     top: 0; }
@@ -11551,7 +11555,7 @@ input.cart-plus-minus-box {
 
 .ltn__img-slide-item-3-2 h1 {
   margin-bottom: 5px;
-  font-size: 24px; }
+  font-size: 20px; }
 
 .ltn__img-slide-item-3-2 .btn-wrapper a {
   display: -webkit-box;
@@ -12515,13 +12519,18 @@ input.cart-plus-minus-box {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  max-width: 34%; }
+  max-width: 10%; }
 
 .ltn__call-to-4-img-2 {
   position: absolute;
   right: 0;
   bottom: 0;
-  max-width: 40%; }
+  max-width: 50%; }
+
+  .ltn__call-to-4-img-2  img {
+    max-width: 50%;
+    float:inline-end;
+    }
 
 /* call-to-action-5 */
 .call-to-action-inner-5 a:hover {
